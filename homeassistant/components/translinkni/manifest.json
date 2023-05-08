@@ -1,0 +1,13 @@
+{
+  "domain": "translinkni",
+  "name": "Translink NI",
+  "codeowners": ["@Jordandev678"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/translinkni",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}

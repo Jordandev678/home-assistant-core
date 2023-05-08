@@ -461,6 +461,7 @@ FLOWS = {
         "trafikverket_ferry",
         "trafikverket_train",
         "trafikverket_weatherstation",
+        "translinkni",
         "transmission",
         "tuya",
         "twentemilieu",

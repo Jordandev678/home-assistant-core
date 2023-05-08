@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "api_token": "[%key:common::config_flow::data::api_token%]"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  },
+  "options": {
+    "step": {
+      "add_journey_1_search": {
+        "data": {
+          "origin": "Origin",
+          "destination": "Destination"
+        }
+      },
+      "add_journey_2_choose": {
+        "data": {
+          "origin": "Origin",
+          "destination": "Destination"
+        }
+      }
+    }
+  }
+}
